@@ -1,0 +1,22 @@
+{
+    "name": "GrigoreAlexandru/dominoes",
+    "license": "MIT",
+    "type": "project",
+    "description": "CLI dominoes game",
+    "autoload": {
+        "psr-4" : {
+            "Dominoes\\" : "src/Dominoes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4" : {
+            "Tests\\Dominoes\\" : "tests/Dominoes/"
+        }
+    },
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9"
+    }
+}
